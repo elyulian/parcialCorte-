@@ -79,10 +79,7 @@ public class Main {
                     System.out.println("--------- Condolidado Todas las cabinas --------");
                     for (Cabina cabina : cabinas) {
                         System.out.println("-----------------------------------------------------");
-                        System.out.println("Nombre de la cabina: " + cabina.getNombreCabina());
-                        System.out.println("Numero de llamadas: " + cabina.getContadorLlamadas());
-                        System.out.println("Minutos de uso: " + cabina.getMinutosUso());
-                        System.out.println("Costo total: " + cabina.getContadorCostoTotal());
+                        cabina.resumenCabina();
                         System.out.println("-----------------------------------------------------");
 
                     }
